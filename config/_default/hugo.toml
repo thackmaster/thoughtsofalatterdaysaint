@@ -1,0 +1,73 @@
+resourcedir = '../resources/'
+title = "Hinode"
+copyright = "Copyright © 2022 - 2025 Mark Dumay."
+enableGitInfo = true
+
+# additional settings
+baseURL = "https://demo.gethinode.com/"
+canonifyURLs = false
+enableEmoji = true
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+timeout = "180s"
+
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[outputs]
+home = ["HTML", "RSS", "REDIR", "netlify", "server"]
+
+[build]
+  writeStats = true
+  
+[taxonomies]
+  tag = 'tags'
+
+[pagination]
+  pagerSize = 9
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.x]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+  [services.x]
+    disableInlineCSS = true
+  [services.googleAnalytics]
+    ID = "G-T85PPZ36GN"
+
+[minify]
+  [minify.tdewolff.js]
+    keepVarNames = true
+    precision = 0
+    version = 2022
+  [minify.tdewolff.html]
+    keepWhitespace = true
+
+[segments]
+  [segments.headers]
+    [[segments.headers.includes]]
+       kind = '{home}'
+       output = '{netlify,server}'
