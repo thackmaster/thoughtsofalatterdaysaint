@@ -4,8 +4,7 @@ copyright = "Copyright © 2025 Wesley Thacker"
 enableGitInfo = true
 
 # additional settings
-#baseURL = "https://thoughtsofalatterdaysaint.com"
-baseURL = "/"
+baseURL = "https://thoughtsofalatterdaysaint.com"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
