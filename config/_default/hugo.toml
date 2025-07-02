@@ -68,3 +68,6 @@ home = ["HTML", "RSS", "REDIR"]
     version = 2022
   [minify.tdewolff.html]
     keepWhitespace = true
+  
+[imaging]
+  anchor = "Smart"
