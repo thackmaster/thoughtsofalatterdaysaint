@@ -9,7 +9,7 @@
                 {{ $link := partial "assets/link.html" (dict "href" (index site.Params.links "hinode") "text" "Hinode" "class" "link-bg-footer" "page" .Page) }}
                 Powered by {{ $hugoLink }} with the {{$link}} theme.
             {{ end }}
-            Built {{ now.UTC.Format "Monday, 2 January 2006 15:04:05 UTC" }}
+            Built {{ now.UTC.Format "Monday, 2 January 2006 at 15:04:05 UTC" }}
         </small>
     </div>
 </footer>
