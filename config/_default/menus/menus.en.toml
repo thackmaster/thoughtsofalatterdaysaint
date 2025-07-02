@@ -1,0 +1,39 @@
+[[main]]
+    name = "Blog"
+    pageRef = "/blog/"
+    weight = 10
+
+[[main]]
+    parent = "Blog"
+    name = "Home"
+    pageRef = "/blog/"
+    weight = 10
+
+[[main]]
+    parent = "Blog"
+    name = "Tags"
+    pageRef = "/tags/"
+    weight = 20
+
+[[main]]
+    name = "About"
+    pageRef = "/about/"
+    weight = 20
+
+[[social]]
+    name = "Website"
+    pre = "fas fa-house-laptop"
+    url = "https://wesleythacker.com"
+    weight = 10
+
+[[social]]
+    name = "Blog"
+    pre = "fas fa-blog"
+    url = "https://thackmaster.com"
+    weight = 20
+
+[[social]]
+    name = "GitHub"
+    pre = "fab fa-github"
+    url = "https://github.com/thackmaster"
+    weight = 30

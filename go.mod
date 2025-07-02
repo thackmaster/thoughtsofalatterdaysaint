@@ -1,4 +1,4 @@
-module example.com/hinode
+module github.com/thackmaster/thoughtsofalatterdaysaint
 
 go 1.24.4
 
