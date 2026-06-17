@@ -2,6 +2,7 @@ _vendor/
 exampleSite/public/
 public/
 resources/
+node_modules/
 
 .DS_store
 .hugo_build.lock
