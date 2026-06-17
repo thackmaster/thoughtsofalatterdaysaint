@@ -32,6 +32,7 @@ home = ["HTML", "RSS", "REDIR"]
   
 [taxonomies]
   tag = 'tags'
+  transpiler = "dartsass"
 
 [pagination]
   pagerSize = 9
