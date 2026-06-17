@@ -1,0 +1,14 @@
+height: null
+align:
+  outer: start
+  inner: start
+style:
+  bg: light
+  text: dark
+padding: px-4 px-xxl-0 py-4
+width: 8
+theme:
+hook:
+container:
+  class: col-12 col-xl-10
+  fluid: true
